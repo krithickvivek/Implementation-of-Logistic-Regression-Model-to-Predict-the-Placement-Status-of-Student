@@ -1,4 +1,4 @@
-# Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
+# Ex-No:4 Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
 
 ## AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
@@ -65,8 +65,8 @@ from sklearn.metrics import accuracy_score
 accuracy=accuracy_score(y_test,y_pred)
 print(accuracy)
 
-from sklearn.metrics import accuracy_score
-confusion=(y_test,y_pred)
+from sklearn.metrics import confusion_matrix
+confusion=confusion_matrix(y_test,y_pred)
 print(confusion)
 
 from sklearn.metrics import classification_report
